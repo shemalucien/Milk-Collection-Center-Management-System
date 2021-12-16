@@ -1,0 +1,105 @@
+body
+{
+font-size:20px;
+font-style:bold;
+font-family:verdana,arial,'sans serif';
+background-color:cyan;
+background-image:url(banner2.jpg);
+margin:10px;
+color:blue;
+}
+table
+{
+	color:blue;
+	background-color:cyan;
+	background-image:url(banner2.jpg);
+	background-image-repeat:none
+	footer-background:colar;
+	text-align:center;
+}
+.r{
+	font-style:bold,italic;
+	font-size:15px;
+	color:purple;
+	
+}
+.b{
+	color:blue;
+	font-size:30px;
+	font-family:serif;
+	font-style:italic;
+}
+a{
+text-decoration:none;
+}
+.d{
+	text-align:text-top;
+}
+.a{
+	cursor:pointer;
+	font-size:10px;
+	margin:10px;
+	display:inline-block;
+	position:relative;
+	background:none;
+	background-color:cyan;
+	font-family:verdana;
+	text-transform:uppercase;
+	font-style:italic;
+	padding:10px;
+}
+.a:hover
+{
+	background:white;
+}
+.a:hover
+{
+	animation:pulse 3s infinite alternate;
+}
+.z{
+	<marquee bgcolor="RED" loop="-5" scrollamount="10" width="40%"><b>MILK MANAGEMENT SYSTEM</marquee>
+}
+.container{
+	width:400px;
+	height:500px;
+	text-align:center;
+	border-radius:500px;
+	margin:0 auto;
+	margin-top:15px;
+	
+}
+.dropbtn {
+  background-color:cyan;
+  color: blue;
+  padding: 10px;
+  font-size: 10px;
+  border: none;
+  cursor: pointer;
+  font-style:italic;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: cyan;
+  min-width: 100px;
+  box-shadow:cyan;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color:white;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: white;}

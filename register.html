@@ -1,0 +1,62 @@
+<head>
+<link rel="stylesheet"
+type="text/css" href="project.css" />
+<script type="text/javascript" src="java.js"></script>
+<script>
+	function myblur()
+{
+	var x=document.getElementById("email");
+	x.value=x.value.toLowerCase();
+}
+</script>
+</head>
+<form class="container">
+<h1>Create New Account</h1>
+<p>First name:
+<input type="text" name="First name" size="15"
+maxlength="30" />
+<p>Last name:
+<input type="text" name="Last name" size="15"
+maxlength="30" />
+<br/>
+<p>Username:
+<input type="text" name="username" size="15"
+maxlength="30" />
+<br/>
+<p>Age:
+<input type="date" name="Age" size="15"
+maxlength="30" />
+</p>
+<p>Email:
+<input type="text" name="email" id="email" size="15"
+maxlength="30" onblur="myblur()"/>
+<br/>
+<p>
+Gender:
+<br>
+<input id="female" type="radio" name="gender"
+value="f">
+<label>Female</label><br>
+<input id="male" type="radio" name="gender"
+value="m">
+<label>Male</label><br>
+</p>
+<p>Address:
+<select name="address">
+<option value="rwanda">rwanda</option>
+<option value="uganda">uganda</option>
+<option value="kenya">kenya</option>
+</select>
+</p>
+<p>Password:
+<input type="password" name="password" size="15"
+maxlength="30" />
+</p>
+<p>Confirm-Password:
+<input type="password" name="password" size="15"
+maxlength="30" />
+</p>
+<p>
+<input type="submit" value="Submit"> <input type="submit" value="Clear">
+</p>
+</form>
